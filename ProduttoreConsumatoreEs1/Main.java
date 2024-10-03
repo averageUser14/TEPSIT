@@ -11,7 +11,6 @@ public class Main {
         System.out.print("Inserisci il numero di produttori e consumatori: ");
         int T = scanner.nextInt();
 
-        // Creare il buffer con dimensione T
         Buffer buffer = new Buffer(N);
 
         Produttore produttore = new Produttore(buffer);
