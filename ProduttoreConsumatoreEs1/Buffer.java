@@ -33,7 +33,7 @@ public class Buffer {
 			}catch(InterruptedException e) {
 			}
 		}
-		//coda piena piena
+		//coda piena 
 		int num = coda.removeLast();
 		notifyAll();
 		return num;
