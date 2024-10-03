@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Inserisci la dimensione del buffer: ");
         int N = scanner.nextInt();
         //T non viene usata verranno creati solo un thread consumatore e uno produttore
-        System.out.print("Inserisci il numero di produttori e consumatori: ");
+        System.out.print("Inserisci il numero di thread da creare: ");
         int T = scanner.nextInt();
 
         Buffer buffer = new Buffer(N);
